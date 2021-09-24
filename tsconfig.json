@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "paths": {
+      "style/*": [ "./asset/css/*" ],
+    },
+    "target": "es6",
+    "declaration": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "commonjs",
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"]
+}
